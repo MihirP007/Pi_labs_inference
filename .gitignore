@@ -1,0 +1,51 @@
+
+__pycache__/
+*.py[cod]
+*.pyo
+
+venv/
+lammacpp_venv/
+lmdeploy_venv/
+aphrodite/
+sglang/
+Qwen2-7B/
+fastgen/
+.vscode/
+*.code-workspace
+
+*.env
+.env
+
+# Model files and caches
+*.gguf
+*.pt
+*.safetensors
+*.bin
+*.ckpt
+*.onnx
+*.pkl
+*.npz
+*.tflite
+*.mlmodel
+
+# HuggingFace cache
+custom/hf_cache/
+
+# Logs and runtime data
+*.log
+*.tmp
+*.lock
+*.pid
+
+# Benchmark results
+*.csv
+
+# Install script or output from execution
+install.sh
+*.sh~
+*.swp
+
+.ipynb_checkpoints/
+
+.DS_Store
+Thumbs.db
